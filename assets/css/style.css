@@ -101,9 +101,9 @@ nav a:hover {
 /* Universal Styles for all pages */
 
 .wrapper {
-    padding-top: 30px;
+    padding-top: 10px;
     margin: 0 auto;
-    width: 1024px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ nav a:hover {
     border-radius: 4px;
     padding: 30px 20px;
     width: 100%;
-    margin: 50px auto 100px 10px;
+    margin: 20px auto 100px 10px;
 }
 
 .img-text-content {
@@ -225,76 +225,75 @@ hr {
 
 /* Contact Styles */
 
-    /* Contact Styles */
 
-    .contact-area form {
-        margin-left: 0;
-        padding: 0;
-    }
+.contact-area form {
+    margin-left: 0;
+    padding: 0;
+}
 
-    .contact-area {
-        margin: 40px 20px 100px 138px;
-        padding: 20px 40px 40px 40px;
-        width: 79%;
-        background-color: #fff;
-        border-radius: 4px;
-    }
+.contact-area {
+    margin: 30px 20px 100px 138px;
+    padding: 20px 40px 40px 40px;
+    width: 79%;
+    background-color: #fff;
+    border-radius: 4px;
+}
 
-    .contact-area h2 {
-        font-size: 30px;
-        padding-bottom: 20px;
+.contact-area h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
 
-    }
+}
 
-    .contact-area hr {
-        margin-bottom: 20px;
-        width: 100%;
-    }
+.contact-area hr {
+    margin-bottom: 20px;
+    width: 100%;
+}
 
-    input[type=text], [type=email], textarea {
-        width: 100%;
-        padding: 12px 18px;
-        margin: 15px 0;
-        display: inline-block;
-        border-radius: 4px;
-        box-sizing: border-box;
-        border: 0.25px solid rgba(235, 229, 229, .98);
-        background-color: rgba(235, 229, 229, 0.589);
-        font-size: 14px;
-        
-    }
-
-    .contact-area label {
-        padding-bottom: 20px;
-        padding-top: 40px;
-    }
+input[type=text], [type=email], textarea {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 15px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 0.25px solid rgba(235, 229, 229, .98);
+    background-color: rgba(235, 229, 229, 0.589);
+    font-size: 14px;
     
-    label span {
-        color: red;
-    }
-    
-    input[type=text]:hover, [type=email]:hover, textarea:hover {
-        border: 1px solid #4aaaa5;
-    }
-    
-    input[type=text]:focus, [type=email]:focus, textarea:focus {
-        outline: none;
-    }
-    
-    form button {
-        padding: 10px 20px;
-        color: #ffffff;
-        background-color: #4aaaa5;
-        border-radius: 4px;
-        font-size: 18px;
-        width: 120px;
-    }
-    
-    button:hover {
-        background-color: #fff;
-        color: #4aaaa5;
-        border: 1px solid #4aaaa5;
-    }
+}
+
+.contact-area label {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+label span {
+    color: red;
+}
+
+input[type=text]:hover, [type=email]:hover, textarea:hover {
+    border: 1px solid #4aaaa5;
+}
+
+input[type=text]:focus, [type=email]:focus, textarea:focus {
+    outline: none;
+}
+
+form button {
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 120px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+}
 
 
 @media screen and (max-width: 980px) {
@@ -427,15 +426,21 @@ hr {
 
     /* Contact Styles */
 
+    .wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
     .contact-area form {
         margin-left: 0;
         padding: 0;
     }
 
     .contact-area {
-        margin: 40px 0px 100px 40px;
+        margin: 20px 0px 100px 40px;
         padding: 20px 20px 20px 20px;
-        width: 64%;
+        width: 62%;
         background-color: #fff;
         border-radius: 4px;
     }
@@ -520,12 +525,17 @@ hr {
 
     /* Main content */
 
+    .wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     .main-content {
         background-color: #fff;
         border-radius: 4px;
-        padding: 30px 20px;
-        width: 72%;
-        margin: 20px auto 100px 20px;
+        padding: 30px 0;
+        width: 94%;
+        margin: 20px 10px 100px 5px;
     }
     
     .img-text-content {
@@ -550,20 +560,13 @@ hr {
         font-size: 30px;
     }
 
-    .clearfix {
-        content: "";
-        display: table;
-        clear: both;
-
-    }
-
     /* Portfolio */
 
     .main-content-portfolio {
         background-color: #fff;
         border-radius: 4px;
         padding: 30px 20px;
-        width: 70%;
+        width: 95%;
         margin: 20px auto 100px 20px;
     }
 
@@ -629,9 +632,9 @@ hr {
     }
 
     .contact-area {
-        margin: 40px 20px 100px 20px;
+        margin: 20px 20px 100px 20px;
         padding: 20px 40px 40px 40px;
-        width: 92%;
+        width: 93%;
         background-color: #fff;
         border-radius: 4px;
     }
@@ -705,6 +708,7 @@ hr {
         margin-top: 0;
         border-bottom: 1px solid #333;
         background-color: #fff;
+        width: 100%;
     }
 
     .logo {
@@ -724,12 +728,17 @@ hr {
 
     /* Main content */
 
+    .wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     .main-content {
         background-color: #fff;
         border-radius: 4px;
-        padding: 30px 20px;
-        width: 58%;
-        margin: 20px auto 100px 20px;
+        padding: 10px 10px;
+        width: 90%;
+        margin: 20px 10px 100px 5px;
     }
     
     .img-text-content {
@@ -754,20 +763,13 @@ hr {
         font-size: 30px;
     }
 
-    .clearfix {
-        content: "";
-        display: table;
-        clear: both;
-
-    }
-
     /* Portfolio */
 
     .main-content-portfolio {
         background-color: #fff;
         border-radius: 4px;
         padding: 30px 20px;
-        width: 55%;
+        width: 93%;
         margin: 20px auto 100px 20px;
     }
 
@@ -835,9 +837,9 @@ hr {
     }
 
     .contact-area {
-        margin: 40px 20px 100px 20px;
+        margin: 20px 20px 100px 20px;
         padding: 20px 40px 40px 40px;
-        width: 92%;
+        width: 93%;
         background-color: #fff;
         border-radius: 4px;
     }
