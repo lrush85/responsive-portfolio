@@ -183,10 +183,10 @@ hr {
 }
 
 .column img {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     padding: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .column a {
@@ -204,9 +204,9 @@ hr {
     background-color: #4aaaa5;
     color: white;
     bottom: 25px;
-    width: 230px;
-    margin-left: 50px;
-    height: 55px;
+    width: 210px;
+    margin-left: 30px;
+    height: 45px;
     text-align: center;
     padding-top: 10px;
     font-size: 15px;
@@ -750,7 +750,7 @@ button:hover {
         float:left;
         margin: 10px;
         filter: grayscale(65%);
-        height: auto;
+        height: 300px;
         width: auto;
     }
     .img-text-content p {
@@ -790,7 +790,7 @@ button:hover {
         width: 50%;
     }
     .column img {
-        width: 400px;
+        width: 300px;
         height: auto;
         padding: 0;
         margin-left: -70px;
@@ -812,7 +812,7 @@ button:hover {
         background-color: #4aaaa5;
         color: white;
         bottom: 25px;
-        width: 400px;
+        width: 300px;
         margin-left: -70px;
         height: 45px;
         text-align: center;
